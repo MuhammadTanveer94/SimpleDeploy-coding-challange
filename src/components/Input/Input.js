@@ -1,10 +1,11 @@
 import React from "react";
 
 function InputText(props) {
-  let { value, type = "text", placeholder, onChange } = props;
+  let { value, type = "text", name, placeholder, onChange } = props;
   return (
     <input
       type={type}
+      name={name}
       className="form-control"
       value={value}
       placeholder={placeholder}

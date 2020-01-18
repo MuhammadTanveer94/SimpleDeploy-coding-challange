@@ -1,0 +1,44 @@
+.header {
+  /* height: 30px; */
+  background-color: rgba(149, 183, 192, 0.842);
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.inputContent {
+  margin: auto;
+  /* margin: 20px 0px 0px 0px; */
+  padding: 40px 0px 20px 0px;
+}
+.list-group {
+  margin: auto;
+}
+.btn {
+  float: right;
+
+  font-size: 13px;
+  margin: 0px 10px 0px 0px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.no-data-text {
+  text-align: center;
+  color: #525252;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.edit {
+  background-color: #3e3e3e3e;
+}
